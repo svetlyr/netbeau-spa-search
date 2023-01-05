@@ -19,13 +19,10 @@ Strict mode can’t automatically detect side effects for you, but it can help y
 > Dont forget to setup the .env file
 ## **Run**
 
-```git clone git@github.com:svetlyR/netbeau-spa-search.git```
-
-```cd netbeau-spa-search```
-
-```yarn install```
-
-```yarn run dev```
+```git clone git@github.com:svetlyR/netbeau-spa-search.git
+cd netbeau-spa-search
+yarn install
+yarn run dev```
 
 ## **Build**
 
