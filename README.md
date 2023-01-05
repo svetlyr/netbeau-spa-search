@@ -19,23 +19,22 @@ Strict mode can’t automatically detect side effects for you, but it can help y
 > Dont forget to setup the .env file
 ## **Run**
 
-```git clone git@github.com:svetlyR/netbeau-spa-search.git
+```
+git clone git@github.com:svetlyR/netbeau-spa-search.git
 cd netbeau-spa-search
 yarn install
-yarn run dev```
+yarn run dev
+```
 
 ## **Build**
 
 > The ```file://``` protocol i.e. double clicking the .html file does not work with modules, so we need to use a local web server. Ex: [live-server](https://www.npmjs.com/package/live-server/v/0.8.0)
 
-```git clone git@github.com:svetlyR/netbeau-spa-search.git```
-
-```cd netbeau-spa-search```
-
-```yarn install```
-
-```yarn build```
-
-```cd dist```
-
-```npx live-server```
+```
+git clone git@github.com:svetlyR/netbeau-spa-search.git
+cd netbeau-spa-search
+yarn install
+yarn build
+cd dist
+npx live-server
+```
